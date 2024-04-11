@@ -1,0 +1,26 @@
+.page-header {
+    display: flex;
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+    max-width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.page-header .navbar {
+    display: flex;
+    width: max-content;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar .logo {
+    height: 50px;
+    width: 50px;
+}
+
+.navbar .title-logo {
+    height: 50px;
+}

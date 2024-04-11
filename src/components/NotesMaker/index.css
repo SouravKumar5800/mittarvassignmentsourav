@@ -1,0 +1,20 @@
+.note-maker {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.note-maker .add-note-btn {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background-color: var(--primary-color);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.note-maker .add-note-btn:hover {
+    filter: brightness(90%);
+}

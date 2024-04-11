@@ -1,0 +1,16 @@
+.notes-form {
+    min-width: 70vh;
+}
+
+.submit-note {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.submit-note:hover {
+    filter: brightness(90%);
+}
